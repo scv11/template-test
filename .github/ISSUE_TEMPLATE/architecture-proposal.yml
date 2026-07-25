@@ -51,9 +51,9 @@ body:
   - type: textarea
     id: existing_results
     attributes:
-      label: Proposed Architecture
+      label: Existing Results
       description: Summarize any existing results, experiments, prototypes, or observations that support this proposal.
-      placeholder: Include 1. Current implementation status (if available). 2. Preliminary experimental results or benchmarks. 3. Known limitations or unresolved issues. 4. Links to relevant logs, reports, checkpoints, or discussions.
+      placeholder: Including 1. Current implementation status (if available). 2. Preliminary experimental results or benchmarks. 3. Known limitations or unresolved issues. 4. Links to relevant logs, reports, checkpoints, or discussions.
     validations:
       required: true
 
