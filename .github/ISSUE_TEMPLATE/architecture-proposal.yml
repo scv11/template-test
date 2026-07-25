@@ -53,7 +53,7 @@ body:
     attributes:
       label: Existing Results
       description: Summarize any existing results, experiments, prototypes, or observations that support this proposal.
-      placeholder: Including 1. Current implementation status (if available). 2. Preliminary experimental results or benchmarks. 3. Known limitations or unresolved issues. 4. Links to relevant logs, reports, checkpoints, or discussions.
+      placeholder: Provide any existing results, preliminary experiments, prototypes, or evidence supporting this proposal.
     validations:
       required: true
 
