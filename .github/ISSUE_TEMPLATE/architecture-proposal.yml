@@ -1,0 +1,81 @@
+name: 🏗️ Architecture proposal
+description: Propose and validate one change to the LLM architecture.
+title: "[ARCH-PROP] "
+labels:
+  - under review
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Architecture proposal
+
+        Use this form to propose one architecture change. Keep the proposal focused and submit unrelated changes separately.
+        
+  - type: input
+    id: proposal_name
+    attributes:
+      label: Architecture Name
+      description: Give the proposed base architecture or modification a short, descriptive name.
+      placeholder: "Example: OLMo3"
+    validations:
+      required: true
+
+  - type: input
+    id: base_architecture_issue
+    attributes:
+      label: Parent issue
+      description: For a modification, link the issue that tracks the base architecture. Leave blank for a root architecture.
+      placeholder: "Example: #123"
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem_and_hypothesis
+    attributes:
+      label: Motivations
+      description: Describe the current limitation or opportunity, the measurable outcome you expect, and any supporting rationale, evidence, or related work that motivates this proposal.
+      placeholder: Explain the problem and the expected outcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed Architecture
+      description: Describe what changes from the base architecture, what remains unchanged, and the expected impact on parameters, compute, memory, or latency if known.
+      placeholder: Explain the proposed architecture change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: existing_results
+    attributes:
+      label: Proposed Architecture
+      description: Summarize any existing results, experiments, prototypes, or observations that support this proposal.
+      placeholder: Include 1. Current implementation status (if available). 2. Preliminary experimental results or benchmarks. 3. Known limitations or unresolved issues. 4. Links to relevant logs, reports, checkpoints, or discussions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: validation_plan
+    attributes:
+      label: Experiments Plan
+      description: Identify the baseline, evaluation method and metrics, measurable success criteria, and any notable compute or data requirements.
+      placeholder: Explain how the proposal will be evaluated.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        Maintainers review the proposal before implementation starts:
+
+        - `under review`: waiting for a maintainer decision
+        - `in-progress`: approved for implementation
+        - `declined`: rejected or deferred; the Issue is closed
+        - `done`: a linked implementation PR was merged; the Issue is closed
+
+        Status labels are mutually exclusive and maintained by repository automation.
