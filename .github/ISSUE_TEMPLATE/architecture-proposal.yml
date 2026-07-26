@@ -51,7 +51,7 @@ body:
   - type: textarea
     id: existing_results
     attributes:
-      label: Existing Results
+      label: Preliminary results (if any)
       description: Summarize any existing results, experiments, prototypes, or observations that support this proposal.
       placeholder: Provide any existing results, preliminary experiments, prototypes, or evidence supporting this proposal.
     validations:
