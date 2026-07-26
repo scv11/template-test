@@ -1,15 +1,13 @@
 ---
-name: Architecture Implementation
+title: 
+architecture name: Architecture Implementation
 about: Implement an approved LLM architecture modification
-title: "[ARCH-IMPL] "
-labels: architecture implementation
-assignees: JT-Ushio
 
 ---
 
 <!-- Link to the corresponding Architecture Proposal issue -->
 <!-- Example: #123 -->
-> **Architecture Proposal (issue #)**:
+> **Architecture Proposal (issue #)**: 
 
 ## Implementation Details:
 <!-- Describe the implemented architecture modification.
@@ -22,18 +20,18 @@ Include:
 
 ## Experimental Validation:
 
-#### Research Question #1
+#### Research Question 1
 
 <!-- What hypothesis does this experiment aim to validate? -->
-*Hypothesis:*
+*Hypothesis:* 
 
 <!-- Analyze experimental results.
 Explain observations, comparisons, and potential reasons.
 -->
-*Results & Analysis:*
+*Results & Analysis:* 
 
 <!-- Summarize the findings for this research question -->
-*Findings:*
+*Findings:* 
 
 <!-- Add more research questions if needed -->
 
@@ -41,10 +39,10 @@ Explain observations, comparisons, and potential reasons.
 ## Archive:
 
 <!-- Example: https://wandb.ai/.../reports/... -->
-- WandB Report (include training and evaluation logs):
+- WandB Report (include training and evaluation logs): 
 
 <!-- Example: https://huggingface.co/collections/... -->
-- HuggingFace Collection (include model checkpoints):
+- HuggingFace Collection (include model checkpoints): 
 
 ---
 
