@@ -11,10 +11,14 @@
 <!--
 Summarize the experimental results. List the assumptions and improvements.
 For example:
-1. More Stable Training
-  Loss variance decreased by X%, with fewer optimization spikes.
-2. ......
+### Finding 1: Improved Training Stability
+
+Training loss variance decreased by X%, with fewer loss spikes.
+
+### Finding 2: ...
+...
 -->
+### Finding 1:
 
 ## Conclusion
 
