@@ -1,7 +1,7 @@
 ---
-**Title:**  
-**Architecture Name:** Architecture Implementation
-**About:** Implement an approved LLM architecture modification
+Title: 
+Architecture Name: 
+About: 
 
 ---
 
