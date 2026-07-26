@@ -55,7 +55,7 @@ body:
       description: Summarize any existing results, experiments, prototypes, or observations that support this proposal.
       placeholder: Provide any existing results, preliminary experiments, prototypes, or evidence supporting this proposal.
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: validation_plan
