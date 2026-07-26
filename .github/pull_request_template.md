@@ -7,9 +7,9 @@ assignees: JT-Ushio
 
 ---
 
-> **Architecture Proposal (issue #)**:
 <!-- Link to the corresponding Architecture Proposal issue -->
 <!-- Example: #123 -->
+> **Architecture Proposal (issue #)**:
 
 ## Implementation Details:
 <!-- Describe the implemented architecture modification.
@@ -24,28 +24,27 @@ Include:
 
 #### Research Question #1
 
-*Hypothesis:*
 <!-- What hypothesis does this experiment aim to validate? -->
+*Hypothesis:*
 
-*Results & Analysis:*
 <!-- Analyze experimental results.
 Explain observations, comparisons, and potential reasons.
 -->
+*Results & Analysis:*
 
-*Findings:*
 <!-- Summarize the findings for this research question -->
-
+*Findings:*
 
 <!-- Add more research questions if needed -->
 
 
 ## Archive:
 
-- WandB Report (include training and evaluation logs):
 <!-- Example: https://wandb.ai/.../reports/... -->
+- WandB Report (include training and evaluation logs):
 
-- HuggingFace Collection (include model checkpoints):
 <!-- Example: https://huggingface.co/collections/... -->
+- HuggingFace Collection (include model checkpoints):
 
 ---
 
