@@ -2,6 +2,7 @@ name: 🏗️ Architecture proposal
 description: Propose and validate one change to the LLM architecture.
 title: "[ARCH-PROP] "
 labels:
+  - architecture proposal
   - under review
 
 body:
@@ -16,7 +17,7 @@ body:
     id: proposal_name
     attributes:
       label: Architecture Name
-      description: Give the proposed base architecture or modification a short, descriptive name.
+      description: Provide a short, descriptive name for the proposed architecture or modification.
       placeholder: "Example: OLMo3"
     validations:
       required: true
@@ -25,17 +26,17 @@ body:
     id: base_architecture_issue
     attributes:
       label: Parent issue
-      description: For a modification, link the issue that tracks the base architecture. Leave blank for a root architecture.
+      description: Link the issue for the architecture this proposal is based on.
       placeholder: "Example: #123"
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: problem_and_hypothesis
     attributes:
       label: Motivations
-      description: Describe the current limitation or opportunity, the measurable outcome you expect, and any supporting rationale, evidence, or related work that motivates this proposal.
-      placeholder: Explain the problem and the expected outcome.
+      description: Explain the problem and why it matters, identify the limitation or gap in the base architecture, and state the hypothesis or insight motivating this proposal.
+      placeholder: Describe the problem, its significance, the architectural gap, and the hypothesis behind this proposal.
     validations:
       required: true
 
@@ -43,8 +44,8 @@ body:
     id: proposed_change
     attributes:
       label: Proposed Architecture
-      description: Describe what changes from the base architecture, what remains unchanged, and the expected impact on parameters, compute, memory, or latency if known.
-      placeholder: Explain the proposed architecture change.
+      description: Describe the proposed architecture and how it differs from the base architecture. Specify what changes and the expected impact.
+      placeholder: Define the architecture change, its relationship to the base architecture.
     validations:
       required: true
 
@@ -52,8 +53,8 @@ body:
     id: existing_results
     attributes:
       label: Preliminary results (if any)
-      description: Summarize any existing results, experiments, prototypes, or observations that support this proposal.
-      placeholder: Provide any existing results, preliminary experiments, prototypes, or evidence supporting this proposal.
+      description: Summarize relevant prior work and any existing experiments, prototypes, analyses, or observations that support or challenge the proposal.
+      placeholder: Cite relevant work and summarize any available evidence, experimental results, comparisons, and limitations.
     validations:
       required: false
 
@@ -61,8 +62,8 @@ body:
     id: validation_plan
     attributes:
       label: Experiments Plan
-      description: Identify the baseline, evaluation method and metrics, measurable success criteria, and any notable compute or data requirements.
-      placeholder: Explain how the proposal will be evaluated.
+      description: Define how the proposal will be evaluated, including research questions, baselines, datasets or tasks, metrics, ablations, and evaluation protocol. Specify measurable success criteria and compute or data requirements.
+      placeholder: Describe the experiments, comparisons, metrics, ablations, success criteria, and required resources.
     validations:
       required: true
 
@@ -76,6 +77,6 @@ body:
         - `under review`: waiting for a maintainer decision
         - `in-progress`: approved for implementation
         - `declined`: rejected or deferred; the Issue is closed
-        - `done`: a linked implementation PR was merged; the Issue is closed
+        - `verified`: a linked implementation PR was merged; the Issue is closed
 
         Status labels are mutually exclusive and maintained by repository automation.
